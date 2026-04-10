@@ -25,7 +25,6 @@ INTENTS = [
     "meter_reading_submission",
     "moving_home",
     "planned_outage_enquiry",
-    "report_discoloured_water",
     "report_leak",
     "report_low_pressure",
     "report_no_water",

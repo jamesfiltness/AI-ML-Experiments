@@ -12,13 +12,13 @@
 {"messages": [{"role": "user", "content": "the pressure upstairs is fine but downstairs its really weak"}, {"role": "assistant", "content": "report_low_pressure"}]}
 {"messages": [{"role": "user", "content": "i live on the top floor and ive always had bad pressure but its worse than ever today"}, {"role": "assistant", "content": "report_low_pressure"}]}
 {"messages": [{"role": "user", "content": "My washing machine keeps stopping mid cycle because of low water presure I think"}, {"role": "assistant", "content": "report_low_pressure"}]}
-{"messages": [{"role": "user", "content": "My water has come out brown this morning, is it safe to drink?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "the water from my tap looks a bit yellow today, is that normal?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "When I turned my tap on this morning it came out realy dark and murky"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "There's a strange orange tinge to my water, should I be worried?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "my water is cloudy and white looking, not sure if its ok to use"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "Taps running brown water, been like this since this moring"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "The water looks discoloured, sort of rusty coloured. Is there a mains issue?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "My water has come out brown this morning, is it safe to drink?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water from my tap looks a bit yellow today, is that normal?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "When I turned my tap on this morning it came out realy dark and murky"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "There's a strange orange tinge to my water, should I be worried?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my water is cloudy and white looking, not sure if its ok to use"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "Taps running brown water, been like this since this moring"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "The water looks discoloured, sort of rusty coloured. Is there a mains issue?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
 {"messages": [{"role": "user", "content": "I have no water at all, taps are completely dry"}, {"role": "assistant", "content": "report_no_water"}]}
 {"messages": [{"role": "user", "content": "just noticed ive got no water coming out of any taps in the house"}, {"role": "assistant", "content": "report_no_water"}]}
 {"messages": [{"role": "user", "content": "There is no water supply to my property, when will it be restored?"}, {"role": "assistant", "content": "report_no_water"}]}
@@ -215,64 +215,64 @@
 {"messages": [{"role": "user", "content": "the kids cant even get a decent shower, pressure is that bad"}, {"role": "assistant", "content": "report_low_pressure"}]}
 {"messages": [{"role": "user", "content": "consistently getting less than 1 bar at the stopcock, is that normal?"}, {"role": "assistant", "content": "report_low_pressure"}]}
 {"messages": [{"role": "user", "content": "water coming out almost horizontally from the tap its so weak"}, {"role": "assistant", "content": "report_low_pressure"}]}
-{"messages": [{"role": "user", "content": "water coming out brown this morning, is it safe to drink?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water from my tap looks a bit yellow today, is that normal?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water coming out realy dark and murky when I turned my tap on this morning"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "There's a strange orange tinge to my water, should I be worried?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "my water is cloudy and white looking, not sure if its ok to use"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water coming out rusty brown when i first turn the tap on"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "noticed some black bits floating in my water today, what are they?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water has been slightly discoloured since this morning, brownish tinge"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "my drinking water looks murky, not sure its safe"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "the water looks orangey this morning, bit worried about it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "my water was perfectly clear yesterday but its brown today"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water from cold tap is clear but hot water looks brownish"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "looks like rust in my water, is the pipe corroding?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "the water coming out is almost black, never seen it this bad"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water looks milky white when you run it, is that air in the pipes?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "slight discolouration in water since you did work nearby last week"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water looks greenish, never had that before"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "my water is an orange brown colour and leaves stains in the toilet"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "is the water safe to drink? it looks dirty and slightly brown"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "grey looking water from my taps today, only started this morning"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water tastes and looks a bit off today, slight brownish colour"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "noticed sediment in the bottom of my water glass, is that normal?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water discolouration quite bad today, very rusty looking"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "the water from my kitchen tap is yellow this morning"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "my water has a yellowish tinge to it today, when will it clear?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "ran the tap for ages but water is still brownish, not clearing"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "brown water again, this is the third time this month"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water looks slightly cloudy and theres sediment in my kettle"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water not clear, looks a muddy sort of colour"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "i noticed the water in the bath looked slightly discoloured today"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "it was discoloured yesterday then cleared but its back today again"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water is a dark brown colour coming from all taps in the house"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water looks strange, sort of yellowish and cloudy at the same time"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "all my neighbours are reporting the same discolouration, is there a mains issue?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "small reddish particles coming from my kitchen tap"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "my water was normal until you did work nearby, now its discoloured"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "just run a bath and the water looks really murky, not happy about it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "brown stuff coming through tap every morning but then clears after a minute"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "whats caused the water to go brown? happened a couple of times this week"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water has a distinctly orange colour to it from the kitchen tap"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "my toilet cistern has brown deposits in it from the water"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "the water looks slightly cloudy and white, my neighbour says its the same"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water from my tap has tiny black flakes in it today"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "discoloured water from just the one tap, the bathroom, not kitchen"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water looks off coloured, slightly rusty sort of brownish, is it safe?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water been discoloured for 3 days now, when is it going to clear up?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "turning tap on slowly produces clearer water but still a bit discoloured"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "white cloudy appearance in water, almost looks like skimmed milk"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water from one tap brown but other taps are fine, whats that about?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "the water is leaving brown stains around my taps and in the toilet bowl"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water smells a bit and looks brownish, has something got into the supply?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water has been clear but today suddenly gone discoloured"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "quite concerned about brown water this morning, have children at home"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water looks muddy and dirty, dont want to use it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "slight yellowy tinge to water, only started today"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water discoloured after the road works that were done this week"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "water clarity has been poor for a week now and its not improving"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "my tea keeps going a funny colour and i think its the water"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water coming out brown this morning, is it safe to drink?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water from my tap looks a bit yellow today, is that normal?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water coming out realy dark and murky when I turned my tap on this morning"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "There's a strange orange tinge to my water, should I be worried?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my water is cloudy and white looking, not sure if its ok to use"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water coming out rusty brown when i first turn the tap on"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "noticed some black bits floating in my water today, what are they?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water has been slightly discoloured since this morning, brownish tinge"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my drinking water looks murky, not sure its safe"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water looks orangey this morning, bit worried about it"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my water was perfectly clear yesterday but its brown today"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water from cold tap is clear but hot water looks brownish"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "looks like rust in my water, is the pipe corroding?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water coming out is almost black, never seen it this bad"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water looks milky white when you run it, is that air in the pipes?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "slight discolouration in water since you did work nearby last week"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water looks greenish, never had that before"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my water is an orange brown colour and leaves stains in the toilet"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "is the water safe to drink? it looks dirty and slightly brown"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "grey looking water from my taps today, only started this morning"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water tastes and looks a bit off today, slight brownish colour"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "noticed sediment in the bottom of my water glass, is that normal?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water discolouration quite bad today, very rusty looking"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water from my kitchen tap is yellow this morning"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my water has a yellowish tinge to it today, when will it clear?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "ran the tap for ages but water is still brownish, not clearing"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "brown water again, this is the third time this month"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water looks slightly cloudy and theres sediment in my kettle"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water not clear, looks a muddy sort of colour"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "i noticed the water in the bath looked slightly discoloured today"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "it was discoloured yesterday then cleared but its back today again"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water is a dark brown colour coming from all taps in the house"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water looks strange, sort of yellowish and cloudy at the same time"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "all my neighbours are reporting the same discolouration, is there a mains issue?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "small reddish particles coming from my kitchen tap"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my water was normal until you did work nearby, now its discoloured"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "just run a bath and the water looks really murky, not happy about it"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "brown stuff coming through tap every morning but then clears after a minute"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "whats caused the water to go brown? happened a couple of times this week"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water has a distinctly orange colour to it from the kitchen tap"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my toilet cistern has brown deposits in it from the water"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water looks slightly cloudy and white, my neighbour says its the same"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water from my tap has tiny black flakes in it today"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "discoloured water from just the one tap, the bathroom, not kitchen"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water looks off coloured, slightly rusty sort of brownish, is it safe?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water been discoloured for 3 days now, when is it going to clear up?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "turning tap on slowly produces clearer water but still a bit discoloured"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "white cloudy appearance in water, almost looks like skimmed milk"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water from one tap brown but other taps are fine, whats that about?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water is leaving brown stains around my taps and in the toilet bowl"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water smells a bit and looks brownish, has something got into the supply?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water has been clear but today suddenly gone discoloured"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "quite concerned about brown water this morning, have children at home"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water looks muddy and dirty, dont want to use it"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "slight yellowy tinge to water, only started today"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water discoloured after the road works that were done this week"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water clarity has been poor for a week now and its not improving"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my tea keeps going a funny colour and i think its the water"}, {"role": "assistant", "content": "water_quality_complaint"}]}
 {"messages": [{"role": "user", "content": "turned on the tap this morning and nothing came out at all"}, {"role": "assistant", "content": "report_no_water"}]}
 {"messages": [{"role": "user", "content": "no water in the whole house, been like this since last night"}, {"role": "assistant", "content": "report_no_water"}]}
 {"messages": [{"role": "user", "content": "completely lost water supply, checked with neighbours and theyre the same"}, {"role": "assistant", "content": "report_no_water"}]}
@@ -996,8 +996,8 @@
 {"messages": [{"role": "user", "content": "please change my direct debit date to the 1st of the month"}, {"role": "assistant", "content": "direct_debit_change"}]}
 {"messages": [{"role": "user", "content": "I need to update the sort code and account number for my payments, i moved to a new bank"}, {"role": "assistant", "content": "direct_debit_change"}]}
 {"messages": [{"role": "user", "content": "how do i cancel my direct debit? i want to pay manually instead"}, {"role": "assistant", "content": "direct_debit_change"}]}
-{"messages": [{"role": "user", "content": "water looks very slightly off colour today, could just be me but thought id mention it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "Taps running brown water, been like this since this moring"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water looks very slightly off colour today, could just be me but thought id mention it"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "Taps running brown water, been like this since this moring"}, {"role": "assistant", "content": "water_quality_complaint"}]}
 {"messages": [{"role": "user", "content": "I've recently got married and need to change my name on the account"}, {"role": "assistant", "content": "account_update"}]}
 {"messages": [{"role": "user", "content": "i need to ad my wife to the account as a joint holder"}, {"role": "assistant", "content": "account_update"}]}
 {"messages": [{"role": "user", "content": "hi there, ive got water gushing out from under my front garden, think a pipe has burst"}, {"role": "assistant", "content": "report_leak"}]}
@@ -1010,11 +1010,11 @@
 {"messages": [{"role": "user", "content": "hello, my water pressure has been terrible all week, taps are just trickling"}, {"role": "assistant", "content": "report_low_pressure"}]}
 {"messages": [{"role": "user", "content": "hiya, pressure is really low upstairs, cant even fill a bath properly"}, {"role": "assistant", "content": "report_low_pressure"}]}
 {"messages": [{"role": "user", "content": "hi there, my washing machine keeps stopping mid cycle, think its the water pressure"}, {"role": "assistant", "content": "report_low_pressure"}]}
-{"messages": [{"role": "user", "content": "hey, my water has come out a funny brown colour this morning, is it safe?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "hi, the water from my tap looks yellowish today, not sure if i should use it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "hello, theres a rusty orange tint to my water, been like this since last night"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "hiya, water is coming out cloudy and white, is that normal?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
-{"messages": [{"role": "user", "content": "hi there, my tap is running dark murky water this morning, pretty worried about it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "hey, my water has come out a funny brown colour this morning, is it safe?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "hi, the water from my tap looks yellowish today, not sure if i should use it"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "hello, theres a rusty orange tint to my water, been like this since last night"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "hiya, water is coming out cloudy and white, is that normal?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "hi there, my tap is running dark murky water this morning, pretty worried about it"}, {"role": "assistant", "content": "water_quality_complaint"}]}
 {"messages": [{"role": "user", "content": "hey, ive got no water at all coming from any taps, what's going on?"}, {"role": "assistant", "content": "report_no_water"}]}
 {"messages": [{"role": "user", "content": "hi, woke up this morning and theres no water supply at all, is there an outage?"}, {"role": "assistant", "content": "report_no_water"}]}
 {"messages": [{"role": "user", "content": "hello, our water has been completely off for a few hours now, any idea when it'll be back?"}, {"role": "assistant", "content": "report_no_water"}]}

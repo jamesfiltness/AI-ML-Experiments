@@ -20,7 +20,6 @@ report_discoloured_water
 |--------|-------------|
 | `report_leak` | Customer reporting a water leak |
 | `report_low_pressure` | Low water pressure complaint |
-| `report_discoloured_water` | Discoloured or unusual looking water |
 | `report_no_water` | Complete loss of water supply |
 | `billing_query` | Questions or disputes about a bill |
 | `meter_reading_submission` | Submitting a meter reading |
@@ -28,7 +27,7 @@ report_discoloured_water
 | `direct_debit_change` | Updating direct debit details |
 | `account_update` | Changing account details (name, address, etc.) |
 | `moving_home` | Moving in or out of a property |
-| `water_quality_complaint` | Taste, smell, or safety concerns |
+| `water_quality_complaint` | Taste, smell, safety concerns, or discoloured water |
 | `planned_outage_enquiry` | Questions about planned maintenance |
 | `hardship_support` | Payment difficulties or financial support |
 | `drainage_issue` | Blocked drains or sewage problems |
@@ -38,7 +37,7 @@ report_discoloured_water
 
 ## Dataset
 
-The training data (`data/training_data.jsonl`) consists of 1,077 labelled customer messages in conversational format, covering all 15 intent types.
+The training data (`data/training_data.jsonl`) consists of 1,077 labelled customer messages in conversational format, covering 14 intent types.
 
 Messages vary in style — formal and informal, with realistic typos and abbreviations — to reflect real-world customer input.
 
@@ -106,12 +105,38 @@ print(output)
 
 ## Results
 
-| Metric | Score |
-|--------|-------|
-| Test accuracy | _TBC_ |
-| Macro F1 | _TBC_ |
+### Run 1 — 1,077 examples, 3 epochs
 
-_Confusion matrix and loss curve coming soon._
+**Overall accuracy: 75%**
+
+| Intent | Precision | Recall | F1 | Support |
+|--------|-----------|--------|----|---------|
+| account_update | 0.86 | 0.75 | 0.80 | 8 |
+| billing_query | 0.67 | 0.67 | 0.67 | 6 |
+| direct_debit_change | 1.00 | 0.89 | 0.94 | 9 |
+| drainage_issue | 1.00 | 1.00 | 1.00 | 9 |
+| general_enquiry | 0.27 | 0.67 | 0.39 | 9 |
+| hardship_support | 0.75 | 0.27 | 0.40 | 11 |
+| meter_query | 0.88 | 0.88 | 0.88 | 8 |
+| meter_reading_submission | 1.00 | 1.00 | 1.00 | 3 |
+| moving_home | 0.83 | 1.00 | 0.91 | 5 |
+| planned_outage_enquiry | 1.00 | 1.00 | 1.00 | 4 |
+| report_discoloured_water | 1.00 | 0.50 | 0.67 | 10 |
+| report_leak | 0.64 | 1.00 | 0.78 | 9 |
+| report_low_pressure | 1.00 | 0.71 | 0.83 | 7 |
+| report_no_water | 1.00 | 1.00 | 1.00 | 7 |
+| water_quality_complaint | 0.00 | 0.00 | 0.00 | 3 |
+
+**Observations:**
+- 6 intents achieved perfect or near-perfect F1
+- `water_quality_complaint` scored 0 — likely confused with `report_discoloured_water` as both involve unusual water
+- `hardship_support` and `general_enquiry` had low recall, suggesting the model was misclassifying those messages as other intents
+- `report_discoloured_water` had perfect precision but only 50% recall — some examples bleeding into `water_quality_complaint`
+
+**Improvements made for Run 2:**
+- Added more training examples for `water_quality_complaint`, `hardship_support`, and `general_enquiry`
+- Sharpened the distinction between `water_quality_complaint` (taste/smell/safety) and `report_discoloured_water` (visual appearance only) in the training data
+- Increased training epochs from 3 to 5
 
 ---
 
