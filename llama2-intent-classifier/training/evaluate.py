@@ -15,6 +15,24 @@ HF_TOKEN = os.environ["HF_TOKEN"]
 HF_REPO = os.environ["HF_REPO"]
 DATA_PATH = "../data/training_data.jsonl"
 
+INTENTS = [
+    "account_update",
+    "billing_query",
+    "direct_debit_change",
+    "drainage_issue",
+    "general_enquiry",
+    "hardship_support",
+    "meter_query",
+    "meter_reading_submission",
+    "moving_home",
+    "planned_outage_enquiry",
+    "report_discoloured_water",
+    "report_leak",
+    "report_low_pressure",
+    "report_no_water",
+    "water_quality_complaint",
+]
+
 login(token=HF_TOKEN)
 
 # -------------------------------------------------------------------
@@ -85,8 +103,15 @@ for i, example in enumerate(test_dataset):
         )
 
     decoded = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    parts = decoded.split("### Intent:")[-1].strip().split()
-    predicted = parts[0] if parts else "general_enquiry"
+    generated = decoded.split("### Intent:")[-1].strip().lower()
+
+    # Match against known intents — longest first to avoid partial matches
+    # e.g. maps "account_update_general_enquiry:" back to "account_update"
+    predicted = "general_enquiry"
+    for intent in sorted(INTENTS, key=len, reverse=True):
+        if generated.startswith(intent.lower()):
+            predicted = intent
+            break
 
     true_labels.append(true_intent)
     predicted_labels.append(predicted)
