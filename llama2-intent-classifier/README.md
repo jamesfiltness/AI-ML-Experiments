@@ -37,7 +37,7 @@ report_discoloured_water
 
 ## Dataset
 
-The training data (`data/training_data.jsonl`) consists of 1,077 labelled customer messages in conversational format, covering 14 intent types.
+The training data (`data/training_data.jsonl`) consists of 1,107 labelled customer messages in conversational format, covering 14 intent types.
 
 Messages vary in style — formal and informal, with realistic typos and abbreviations — to reflect real-world customer input.
 
