@@ -1,6 +1,6 @@
 # Water Utility Intent Classifier
 
-https://github.com/jamesfiltness/AI-ML-Experiments/raw/main/llama2-intent-classifier/demo.mov
+https://github.com/user-attachments/assets/e119e224-557e-44c8-8e67-e4d27be2e55a
 
 A fine-tuned Llama 2 7B model for classifying customer service messages from water utility customers into one of 14 intent categories. Trained using QLoRA for efficient fine-tuning on a single GPU.
 
