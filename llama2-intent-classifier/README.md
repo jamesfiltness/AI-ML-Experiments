@@ -135,7 +135,7 @@ print(output)
 
 **Improvements made for Run 2:**
 - Added more training examples for `water_quality_complaint`, `hardship_support`, and `general_enquiry`
-- Sharpened the distinction between `water_quality_complaint` (taste/smell/safety) and `report_discoloured_water` (visual appearance only) in the training data
+- Merged `report_discoloured_water` into `water_quality_complaint` to eliminate confusion between the two similar intents, reducing the total intent count from 15 to 14
 - Increased training epochs from 3 to 5
 
 ---
