@@ -30,7 +30,7 @@
 {"messages": [{"role": "user", "content": "i got charged twice last month, can someone look into this please"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "Why is my bill so high? I live alone and never use much water"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "i dont understand the charges on my latest bill, can you explain them?"}, {"role": "assistant", "content": "billing_query"}]}
-{"messages": [{"role": "user", "content": "My bill says I owe £340 but that cant be right can it?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "My bill says I owe \u00a3340 but that cant be right can it?"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "Receved my bill and the usage seems way to high for what we use"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "I would like a detailed breakdown of my last bill please"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "I'd like to submit my meter reading, it's currently showing 04521"}, {"role": "assistant", "content": "meter_reading_submission"}]}
@@ -339,7 +339,7 @@
 {"messages": [{"role": "user", "content": "why am i being charged sewerage when i have a septic tank?"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "my bill says estimated reading but i submitted my meter reading last month"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "received a final demand but i have been paying by direct debit regularly"}, {"role": "assistant", "content": "billing_query"}]}
-{"messages": [{"role": "user", "content": "my quarterly bill has gone up from £85 to £210, this seems wrong"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "my quarterly bill has gone up from \u00a385 to \u00a3210, this seems wrong"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "could you send me a copy of my last invoice? i've lost mine"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "my account shows i owe money but i set up DD ages ago and thought it was paid"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "bill arrived with different name on it, not mine, is there a mix up?"}, {"role": "assistant", "content": "billing_query"}]}
@@ -813,7 +813,7 @@
 {"messages": [{"role": "user", "content": "im going through a really difficult time and need help with my water bills"}, {"role": "assistant", "content": "hardship_support"}]}
 {"messages": [{"role": "user", "content": "i dont want to get cut off but i genuinely cant afford to pay right now"}, {"role": "assistant", "content": "hardship_support"}]}
 {"messages": [{"role": "user", "content": "can someone talk me through the options for help with water bills?"}, {"role": "assistant", "content": "hardship_support"}]}
-{"messages": [{"role": "user", "content": "i owe about £600 on my water account, how do we deal with this?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i owe about \u00a3600 on my water account, how do we deal with this?"}, {"role": "assistant", "content": "hardship_support"}]}
 {"messages": [{"role": "user", "content": "i have spoken to a debt advisor who suggested i contact you about a payment plan"}, {"role": "assistant", "content": "hardship_support"}]}
 {"messages": [{"role": "user", "content": "ive never been in debt before and find this really embarrassing, but i need help"}, {"role": "assistant", "content": "hardship_support"}]}
 {"messages": [{"role": "user", "content": "i am on income support and cannot meet my current water payments"}, {"role": "assistant", "content": "hardship_support"}]}
@@ -921,7 +921,6 @@
 {"messages": [{"role": "user", "content": "are you the water company for this postcode?"}, {"role": "assistant", "content": "general_enquiry"}]}
 {"messages": [{"role": "user", "content": "what hours can i reach a real person on the phone?"}, {"role": "assistant", "content": "general_enquiry"}]}
 {"messages": [{"role": "user", "content": "how long does it take to get a new meter installed?"}, {"role": "assistant", "content": "general_enquiry"}]}
-{"messages": [{"role": "user", "content": "do you have a live chat option on your website?"}, {"role": "assistant", "content": "general_enquiry"}]}
 {"messages": [{"role": "user", "content": "what should i do in an emergency outside of office hours?"}, {"role": "assistant", "content": "general_enquiry"}]}
 {"messages": [{"role": "user", "content": "i want to make a subject access request for my account data"}, {"role": "assistant", "content": "general_enquiry"}]}
 {"messages": [{"role": "user", "content": "can i get a copy of your terms and conditions?"}, {"role": "assistant", "content": "general_enquiry"}]}
@@ -986,7 +985,7 @@
 {"messages": [{"role": "user", "content": "just got home and there is no water at all, checked with next door and theyre fine"}, {"role": "assistant", "content": "report_no_water"}]}
 {"messages": [{"role": "user", "content": "i have no water at all, taps are completely dry"}, {"role": "assistant", "content": "report_no_water"}]}
 {"messages": [{"role": "user", "content": "we woke up this morning with no water at all, whats going on?"}, {"role": "assistant", "content": "report_no_water"}]}
-{"messages": [{"role": "user", "content": "my bill says I owe £340 but that cant be right can it?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "my bill says I owe \u00a3340 but that cant be right can it?"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "i got charged twice last month, can someone look into this please"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "Why is my bill so high? I live alone and never use much water"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "i dont understand the charges on my latest bill, can you explain them?"}, {"role": "assistant", "content": "billing_query"}]}
@@ -1023,7 +1022,7 @@
 {"messages": [{"role": "user", "content": "hey, my bill this month is nearly double what it normally is, can someone look into it?"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "hi, i think ive been charged twice this month, can you check my account?"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "hello, i dont understand some of the charges on my latest bill, can you explain them?"}, {"role": "assistant", "content": "billing_query"}]}
-{"messages": [{"role": "user", "content": "hiya, got a bill saying i owe over £400 which seems way too high, can you help?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "hiya, got a bill saying i owe over \u00a3400 which seems way too high, can you help?"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "hi there, i live alone and my usage on the bill seems really high, think theres an error"}, {"role": "assistant", "content": "billing_query"}]}
 {"messages": [{"role": "user", "content": "hey, just want to submit my meter reading, its currently showing 08234"}, {"role": "assistant", "content": "meter_reading_submission"}]}
 {"messages": [{"role": "user", "content": "hi, can i give you my meter reading please? it shows 02917"}, {"role": "assistant", "content": "meter_reading_submission"}]}
@@ -1075,16 +1074,6 @@
 {"messages": [{"role": "user", "content": "hello, is the water in this area hard or soft? just moved here"}, {"role": "assistant", "content": "general_enquiry"}]}
 {"messages": [{"role": "user", "content": "hiya, what number do i call if i have an emergency out of hours?"}, {"role": "assistant", "content": "general_enquiry"}]}
 {"messages": [{"role": "user", "content": "hi there, can you tell me who my water supplier is? just moved to this area and not sure"}, {"role": "assistant", "content": "general_enquiry"}]}
-{"messages": [{"role": "user", "content": "how do i report a problem with my water supply?"}, {"role": "assistant", "content": "general_enquiry"}]}
-{"messages": [{"role": "user", "content": "what is the phone number for customer services?"}, {"role": "assistant", "content": "general_enquiry"}]}
-{"messages": [{"role": "user", "content": "do you have a live chat option on your website?"}, {"role": "assistant", "content": "general_enquiry"}]}
-{"messages": [{"role": "user", "content": "how do i set up an online account to manage my bills?"}, {"role": "assistant", "content": "general_enquiry"}]}
-{"messages": [{"role": "user", "content": "is tap water in this area safe to drink?"}, {"role": "assistant", "content": "general_enquiry"}]}
-{"messages": [{"role": "user", "content": "what is the water hardness level in my area?"}, {"role": "assistant", "content": "general_enquiry"}]}
-{"messages": [{"role": "user", "content": "how often do you send out bills?"}, {"role": "assistant", "content": "general_enquiry"}]}
-{"messages": [{"role": "user", "content": "where can i find water saving tips on your website?"}, {"role": "assistant", "content": "general_enquiry"}]}
-{"messages": [{"role": "user", "content": "can i pay my bill at a post office?"}, {"role": "assistant", "content": "general_enquiry"}]}
-{"messages": [{"role": "user", "content": "do you have a priority services register for vulnerable customers?"}, {"role": "assistant", "content": "general_enquiry"}]}
 {"messages": [{"role": "user", "content": "i'm struggling financially and am worried I won't be able to pay my water bill this month"}, {"role": "assistant", "content": "hardship_support"}]}
 {"messages": [{"role": "user", "content": "is there a payment plan available? i owe quite a bit and cant pay it all at once"}, {"role": "assistant", "content": "hardship_support"}]}
 {"messages": [{"role": "user", "content": "i am on a low income and the water bills are becoming unmanageable, what help is there?"}, {"role": "assistant", "content": "hardship_support"}]}
