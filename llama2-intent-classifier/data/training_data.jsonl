@@ -1,0 +1,1077 @@
+{"messages": [{"role": "user", "content": "There's water coming up through my garden, I think there might be a pipe burst or something"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "hi ive got water leaking from under my sink but i think its coming from the main pipe not the tap"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "Water is pouring out of the pavement outside my house, its been going on for hours now"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "I noticed a wet patch on my cellar wall and I'm worried there's a leak somewhere"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "theres water spurting out the street outside number 14 can someone come fix it"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "My stopcock is leaking quite badly and i dont know how to turn it off can you help"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "We have a leak in are garden, water is everywhere please help"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "The water pressure in my shower has been really low for the past week, is there something wrong?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "my taps are barely trickling, is there work going on in the area?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "Presure has been low all morning, can barely fill a kettle"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "Why is my water pressure so low? It's been like this since yesterday evening"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "the pressure upstairs is fine but downstairs its really weak"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "i live on the top floor and ive always had bad pressure but its worse than ever today"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "My washing machine keeps stopping mid cycle because of low water presure I think"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "My water has come out brown this morning, is it safe to drink?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "the water from my tap looks a bit yellow today, is that normal?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "When I turned my tap on this morning it came out realy dark and murky"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "There's a strange orange tinge to my water, should I be worried?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "my water is cloudy and white looking, not sure if its ok to use"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "Taps running brown water, been like this since this moring"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "The water looks discoloured, sort of rusty coloured. Is there a mains issue?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "I have no water at all, taps are completely dry"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "just noticed ive got no water coming out of any taps in the house"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "There is no water supply to my property, when will it be restored?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "we woke up this morning with no water at all, whats going on?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "no water at all coming from taps or toilet, is there an outage?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "My water has stopped completley, been off for about 2 hours now"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "Can you tell me why our supply has been cut off? We haven't missed any payments"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "My bill this month is much higher than usual, I think there might be an error"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i got charged twice last month, can someone look into this please"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "Why is my bill so high? I live alone and never use much water"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i dont understand the charges on my latest bill, can you explain them?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "My bill says I owe £340 but that cant be right can it?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "Receved my bill and the usage seems way to high for what we use"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "I would like a detailed breakdown of my last bill please"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "I'd like to submit my meter reading, it's currently showing 04521"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "can i send you my meter reading? the dial shows 01876"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "My reading is 7823, where do I enter this?"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "i want to give you my meter reading its 003421"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "Submiting a meter reading of 12045 for account 889234"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "how do i submit a meter reading online? cant find where to do it on the website"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "meter reading: 09876. Please can you update my account"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "I don't know where my water meter is, can you help me find it?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "is my property metered or on a fixed rate?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "I think my meter might be faulty, the reading keeps jumping around"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "how do i read my water meter? never done it before"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "Can I request to have a meter instaled at my property?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter is in an awkard location under the floor, can it be moved?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "I'd like to change my direct debit date to the 1st of the month"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "can you update my bank details for the direct debit please, ive changed banks"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "I want to increase my monthly direct debit amount"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "how do i cancel my direct debit? i want to pay manually instead"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my direct debet keeps failing, not sure why as i have enough money in my account"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "Please change my DD date from the 15th to the 28th"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "I need to update the sort code and account number for my payments, i moved to a new bank"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "I've recently got married and need to change my name on the account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "can you update my phone number please, ive got a new one"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "I need to change the email address on my account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my adress has change slightly, the house has been renumbered"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "how do i update my contact prefernces? i dont want letters anymore"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "Please remove my ex partner from the joint account, we are no longer together"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i need to ad my wife to the account as a joint holder"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "I'm moving house next month and need to close my account at my current address"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "we're moving in to a new property next week, how do i set up a new account?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "can you transfer my account to my new adress please"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "Moving out on the 15th, what do I need to do?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "just moved in to this property and need to set up water supply in my name"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "I'm moving out next Fiday, who do i need to contact to close the account?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "My water has a really strange taste, almost like chlorine"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water smells really bad today, like rotten eggs or something"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "I think there might be something wrong with the water, my family all feel sick after drinking it"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water tastes diffrent lately, not sure what it is but its noticable"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "There's a strong chemical smell from my tap water today, is this safe?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my kids wont drink the water cos they say it tastes funny, can you check it?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water looks clear but has a mettalic taste, been like this a few days"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "I received a letter about planned maintenance, when exactly will the water be off?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "is there any planned work in my area that might affect my supply?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "I saw a notice about works on my street, will I have no water all day?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "how long will the mantainance work take? I need to know if I should fill some buckets"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "someone told me theres work on the pipes near me, is that right?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "Will the interuption yesterday affect today's supply as well?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "I'm really struggling to pay my water bill at the moment, is there any help available?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "ive fallen behind on payments and dont know what to do, can you help?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "I'm on benefits and can't afford my water bills, is there a reduced rate?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "can i set up a payment plan to pay off my arrears?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i lost my job recently and struggling to keep up with bills including water, any supprot available?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "Is there a watersure scheme or similar I might qualify for?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "my partner died and im now on a single income and cant manage the bills on my own"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "My drain outside is completely blocked and water is flooding into my garden"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "the drain in my street keeps overflowing when it rains, its been going on for weeks"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "I have a blocked sewer and raw sewage is coming up through my drain, please help urgently"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "theres a horrible smell outside, i think the drain is blocked"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my outdoor drain is blocked with leaves and wont clear, is this your responsibilty?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "Water is backing up in my bathtub and sink, I think the main drain might be blocked"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "What are your opening hours for customer service?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i get in touch with someone about my account?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "do you have an app I can use to manage my account?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "Is the water in this area hard or soft?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what number do i call for emergencys out of hours?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "Can you tell me who my water supplier is, I've just moved to this area and not sure"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "there's water coming up from under my kitchen floor, any ideas what that could be?"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "I can hear water running but all my taps are off, think ive got a burst pipe"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "the pipe going into my house has burst, water everywhere"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "massive puddle appearing in my front garden, no rain today so must be a leak"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "theres a jet of water coming out of the pavement down the road from me"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "my outside tap is leaking really badly even when turned off"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water seeping through my basement wall, think its coming from outside"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "noticed my water meter is spinning even though nothing is on, must be a leak somewhere"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "pipe burst in my attic and water is dripping through the ceiling"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "the main stopcock is leaking and i cant get it to stop"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "there's water coming out the joint where two pipes meet under my sink"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "my neighbour says there's a leak under the road, loads of water coming up"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "we have water running down our drive and it hasnt rained, think the main pipe is burst"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "I can see water bubbling up from the footpath near my house"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "my toiet cistern is constantly running and overflowing onto the floor"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "theres a leak in the communal area of my block of flats, water dripping from the ceiling"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "the pipe connecting to my boiler is leaking quite bad"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "i noticed a large wet patch appearing on my front lawn, could be a burst pipe?"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water is flooding out from round the base of a lamppost near me, been like this since this morning"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "I have water gushing out between the pavement slabs outside my gate"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "one of my pipes has sprung a leak and im trying to deal with it but need help"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "the water main at the end of our street appears to have burst, water everywhere"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "Found water dripping from a joint in my copper pipes in the airing cupboard"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "there seems to be a water main burst outside, huge amounts of water pooling in road"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "I have a leak under my floorboards, can hear water dripping"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "the meter box outside my house is full of water, think somethings burst in there"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water keeps coming up through my drain outside even when its not raining"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "my bathroom is flooded, a pipe has brust behind the wall i think"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "ive got a dripping pipe in my cellar, not sure where its coming from"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "theres a puddle forming at the end of the road that wasnt there yesterday, possible burst?"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "Water running out from under the road near junction with high street"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "my supply pipe appears to be leaking, i can see it dripping in the meter chamber"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "the pipe to my outside tap froze and burst, water everywhere in garden"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water coming through the brickwork on the external wall of my house"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "Can see water flooding from what looks like a mains pipe at the bottom of my road"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "bit of a urgent one - water gushing out of a pipe in my garage"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "leaking pipe under my sink, water dripping into the cupboard"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "there's a really large wet patch forming in the middle of the road, looks like a burst"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water pouring out around where the supply pipe enters my property"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "ive got water coming up through the patio, could be a pipe burst below?"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "my pressure relief valve keeps opening and spraying water everywhere"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water running along the gutter continuously from up the road somewhere, no rain"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "Joint in my copper pipe is weeping slowly, getting worse"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "i think my supply pipe is leaking because my garden is always wet in one spot"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water pooling outside number 23, been getting worse for days"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "can hear water running constantly in the pipes even at night when no one is using any"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "theres a steady stream of water running from a crack in the pavement"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "the pipe from the meter to my house seems to be leaking underground"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water bubbling up in the middle of the footpath near sainsburys"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "ive got a leak coming from somewhere behind my kitchen units"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water is dripping from the ceiling in my downstairs hall, not sure whats above it"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "pipe outside looks like its been hit and is spurting water"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "just noticed a patch of road that looks wet and steaming, think theres a burst pipe"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "noticed the water company's stopcock chamber outside is overflowing with water"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water leaking from the valve on my hot water cylinder"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "ive got a very slow leak on my supply pipe, been ignoring it but its getting worse"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "outside my property there seems to be a mains burst, the road is flooded"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "my garden hose connection is constantly leaking even when disconnected"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water coming out my boiler overflow pipe constantly, something must be wrong"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "the stop valve in my meter box is dripping badly"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "i can see a wet patch on my driveway that wasnt there before, growing bigger each day"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "water pressure has dropped really suddenly today, was fine yesterday"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "my shower wont work properly, the water just dribbles out"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "getting barely any water from the kitchen tap, is there a problem?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "pressure has been terrible all week, takes ages to fill anything"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "water pressure upstairs is non existent, downstairs is a bit better"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "the cold water in my house is fine but the hot water pressure is terrible"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "my combi boiler keeps showing a low pressure warning, is that your end?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "dishwasher keeps stopping and showing a water error, i think its low pressure"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "filling a bath takes forever now, something must have changed"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "pressure drops to nothing when more than one tap is on"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "ive had consistently low pressure for about 3 weeks now and its getting old"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "my shower pump keeps cutting out because of insufficient water flow"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "pressure seems to drop a lot in the evening, is lots of people using it?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "water pressure was fine until you did work on the road last week, coincidence?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "barely any pressure at all, feels like its getting worse each day"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "just moved in and the pressure here is terrible, was it always like this?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "is there anything I can do about low water pressure or is it your problem to fix?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "both my cold taps are affected, pressure is really weak"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "the pressure is so bad my electric shower wont switch on"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "water comes out in a trickle upstairs, not enough to wash my hair properly"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "pressure fine in mornings but drops off mid afternoon"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "my next door neighbour also has low pressure, so its not just me"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "been without decent pressure for 5 days now, this isnt acceptable"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "the flow from my outside tap is really weak, need better pressure for the hosepipe"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "water pressure dropped overnight, checked and its the mains not my internal pipes"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "all the taps in the house have very weak flow today"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "my garden sprinkler system wont run properly because the pressure is too low"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "pressure fine in kitchen but terrible in bathroom, does that make sense?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "low pressure is causing my washing machine to take hours for a single cycle"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "the flow used to be much better, has something changed recently?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "ive reported low pressure twice already this month, its still not fixed"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "pressure is so low the water barely reaches the top floor of my house"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "my instantaneous water heater cuts out because the flow isnt strong enough"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "water pressure issue on our whole street, confirmed with several neighbours"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "been having low pressure since last tuesday, can someone come check the main?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "pressure been fine for years, suddenly dropped this week, was anything changed?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "my flat is on the third floor and pressure has always been poor, can it be improved?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "flow from the bath taps has basically halved over the last month"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "is there maintenance work near here? pressure dropped dramatically today"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "the pressure at my boundary stop tap feels really low"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "pressure keeps fluctuating, sometimes ok then drops suddenly"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "my house has low presure and the plumber said its the mains not my system"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "terrible water pressure this morning, boiler not working properly because of it"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "next door and the houses opposite all have the same pressure problem"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "low pressure complaint again - reported this last month and nothing was done"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "pressure drops particularly bad between 7 and 9 in the morning"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "my water pressure gauge reads very low, is this a supply issue?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "pressure has halved since your engineers were digging up the road"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "mains pressure checked by plumber, confirmed its a supply issue not internal"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "water pressure so low our combi boiler shuts off mid shower"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "struggling to rinse shampoo out with this pathetic flow"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "this low pressure issue is affecting my entire street can you look into it"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "water pressure feels like it drops whenever someone nearby uses their supply"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "the kids cant even get a decent shower, pressure is that bad"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "consistently getting less than 1 bar at the stopcock, is that normal?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "water coming out almost horizontally from the tap its so weak"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "water coming out brown this morning, is it safe to drink?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water from my tap looks a bit yellow today, is that normal?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water coming out realy dark and murky when I turned my tap on this morning"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "There's a strange orange tinge to my water, should I be worried?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "my water is cloudy and white looking, not sure if its ok to use"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water coming out rusty brown when i first turn the tap on"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "noticed some black bits floating in my water today, what are they?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water has been slightly discoloured since this morning, brownish tinge"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "my drinking water looks murky, not sure its safe"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "the water looks orangey this morning, bit worried about it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "my water was perfectly clear yesterday but its brown today"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water from cold tap is clear but hot water looks brownish"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "looks like rust in my water, is the pipe corroding?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "the water coming out is almost black, never seen it this bad"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water looks milky white when you run it, is that air in the pipes?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "slight discolouration in water since you did work nearby last week"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water looks greenish, never had that before"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "my water is an orange brown colour and leaves stains in the toilet"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "is the water safe to drink? it looks dirty and slightly brown"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "grey looking water from my taps today, only started this morning"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water tastes and looks a bit off today, slight brownish colour"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "noticed sediment in the bottom of my water glass, is that normal?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water discolouration quite bad today, very rusty looking"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "the water from my kitchen tap is yellow this morning"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "my water has a yellowish tinge to it today, when will it clear?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "ran the tap for ages but water is still brownish, not clearing"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "brown water again, this is the third time this month"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water looks slightly cloudy and theres sediment in my kettle"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water not clear, looks a muddy sort of colour"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "i noticed the water in the bath looked slightly discoloured today"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "it was discoloured yesterday then cleared but its back today again"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water is a dark brown colour coming from all taps in the house"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water looks strange, sort of yellowish and cloudy at the same time"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "all my neighbours are reporting the same discolouration, is there a mains issue?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "small reddish particles coming from my kitchen tap"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "my water was normal until you did work nearby, now its discoloured"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "just run a bath and the water looks really murky, not happy about it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "brown stuff coming through tap every morning but then clears after a minute"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "whats caused the water to go brown? happened a couple of times this week"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water has a distinctly orange colour to it from the kitchen tap"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "my toilet cistern has brown deposits in it from the water"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "the water looks slightly cloudy and white, my neighbour says its the same"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water from my tap has tiny black flakes in it today"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "discoloured water from just the one tap, the bathroom, not kitchen"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water looks off coloured, slightly rusty sort of brownish, is it safe?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water been discoloured for 3 days now, when is it going to clear up?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "turning tap on slowly produces clearer water but still a bit discoloured"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "white cloudy appearance in water, almost looks like skimmed milk"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water from one tap brown but other taps are fine, whats that about?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "the water is leaving brown stains around my taps and in the toilet bowl"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water smells a bit and looks brownish, has something got into the supply?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water has been clear but today suddenly gone discoloured"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "quite concerned about brown water this morning, have children at home"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water looks muddy and dirty, dont want to use it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "slight yellowy tinge to water, only started today"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water discoloured after the road works that were done this week"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "water clarity has been poor for a week now and its not improving"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "my tea keeps going a funny colour and i think its the water"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "turned on the tap this morning and nothing came out at all"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "no water in the whole house, been like this since last night"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "completely lost water supply, checked with neighbours and theyre the same"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "my taps are giving nothing, not even a trickle"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "supply cut off with no warning, when will it be back?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "been without water for over 4 hours now, this is really inconvenient"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "no water coming through at all, tried every tap in the house"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water supply has gone completely, checked the stopcock and its open"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "we have a baby and have no water, this is urgent please help"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "no water all morning, is there an outage in this area?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "my cold water is working but no hot water at all coming through"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water went off about an hour ago and hasnt come back"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "all my neighbours have water but i have none, why just me?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "just got back from holiday to find no water at the property"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "woke up at 6am with no water, been waiting all morning for it to come back"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "the water was fine yesterday, came home today and theres nothing"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "my tenants have no water and are calling me, what should I do?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "entire street has no water, some kind of outage?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "the water seems to have been off since approximately midnight"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water gone off mid shower this morning, still hasnt returned"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "building work nearby started this morning and now we have no water - connected?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "no water since approximately 8am this morning, please advise"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "nothing from any tap, hot or cold, throughout the property"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "elderly parent has no water, concerned for their welfare"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water was fine at 10pm last night, gone this morning"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "we rely on water for our business, being without supply is causing us major issues"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "my toilet wont refill, think the supply to the house is off"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "reported no water yesterday evening and its still off this morning"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water seems to have gone off, i havent done anything, stopcock is open"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "entire estate seems to have no water today, whats happened?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "no water at my property, can you check if there is a known outage?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water went off about half 9 this morning and its now almost midday"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "i have a medical condition and need water constantly, this is an emergency"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "woken by partner saying no water, its now been 3 hours"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water supply totally lost, no warning given that this would happen"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "my office building has no water supply, all staff affected"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "have checked and its not just me, whole close has no water"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "the water was trickling yesterday but now its completely gone"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "was told supply would be off for 2 hours but its been 6, whats happening?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "im at a rented property and the water has gone off, is it my problem or landlords?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "we have no water and a house full of guests, very difficult situation"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water seems to have been cut off due to non payment but i am up to date"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "my stop tap is fully open but getting nothing from any outlet"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water only comes back briefly then cuts off again, very erratic"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "pressure was low yesterday and today theres nothing at all"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water completely off since Friday morning, today is Sunday - unacceptable"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water appears to have been isolated outside my property without my knowledge"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "everything was fine when i went to bed, got up to no water at all"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "my mum has no water, shes elderly and lives alone, can someone help urgently"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water cut off at my flat, management company says its your responsibility"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "not a drop of water anywhere in the house, checked all taps including outside"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "have you had a report of a burst nearby? we lost supply about an hour ago"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water supply intermittent today, keeps cutting in and out"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "water came back briefly this morning then went off again, still off now"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "no water at all coming through, is there any estimated restoration time?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "my bill this month is much higher than usual, I think there might be an error"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "my bill has gone up a lot this quarter even though usage hasnt changed"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "can you explain what the standing charge on my bill is for?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i think my bill is based on an estimate not an actual reading, can you fix this?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i moved out of the property in march but got a bill for april, why?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "paid my bill last week but account still shows as outstanding"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "my bill shows a credit balance, how do i get a refund?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "ive been billed for a property i dont live at anymore"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "why am i being charged sewerage when i have a septic tank?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "my bill says estimated reading but i submitted my meter reading last month"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "received a final demand but i have been paying by direct debit regularly"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "my quarterly bill has gone up from £85 to £210, this seems wrong"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "could you send me a copy of my last invoice? i've lost mine"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "my account shows i owe money but i set up DD ages ago and thought it was paid"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "bill arrived with different name on it, not mine, is there a mix up?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "can i spread my annual bill over monthly payments?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i am a landlord and getting bills for a tenant who should be responsible"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "the bill says i used 450 units but that seems ridiculously high for 2 people"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i'd like to set up a paperless billing please"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i paid my bill but the wrong amount was taken, need a refund of the difference"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "bill is for 6 months and the amount seems huge, can you break it down?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "I keep getting reminders even though im paying, please sort this out"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "why has the unit rate gone up since my last bill?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i got two identical bills for the same period, which one is correct?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "please can i have a bill for a specific date range for my records?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "ive been charged a reconnection fee but my supply was never cut off"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "im in credit by quite a lot, can this be offset against future bills?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "ive just received a bill for a property that has been empty for 6 months"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "the meter reading on the bill is lower than the reading i submitted, something is off"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i dont understand why i have both a water charge and a wastewater charge"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "my bill doesnt match the calculation when i do it myself"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "what happens if i just cant pay this months bill, will i get cut off?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "been overcharged for three consecutive quarters now and its still not corrected"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i have power of attorney for my father and need to sort his water bill"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "moved in 6 months ago and only just received my first bill, is this right?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "how do i get a water efficiency audit done to reduce my bill?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "my last bill shows way more usage than the one before, nothing has changed"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "can I pay my water bill in cash at a paypoint?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "can you confirm you received my payment last tuesday please"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "what are my options if i cannot afford to pay in full"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "can you tell me what my current account balance is?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i received a bill but i have no account with you as far as i know"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "how often am i billed? i cant work out the billing period"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i need a letter confirming my water account is in good standing, for a mortgage"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "the charges on this bill dont add up correctly, please check"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "ive moved onto a meter and my bills have actually gone up, that wasnt supposed to happen"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i got a bill for someone else at my address, have you got the wrong tenant?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "can i get a discount for being registered disabled?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "why am i charged for surface water drainage when my house has no gutters going to the drain?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "got charged a late payment fee but i wasnt informed the payment had failed"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i want to switch from metered to unmeasured, is that possible?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "my bill seems to increase every year even when i use the same amount"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "account shows arrears but ive been on a payment plan, are these being applied?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "Receved my bill and the usage seems way to high for what we use"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "bill shows an opening reading of 0 which cant be right, we moved in 3 years ago"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "want to send in my meter reading, its at 05687"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "here is my reading: 12345"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "meter reading for today is 008876"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "can i give you my reading over this chat? its showing 21034"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "submitting meter reading 63241 for account on maple street"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "my meter reads 004523 today"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "reading is 19876, can you update that please"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "just took my meter reading, its 000234"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "meter reading submission: 45621"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "want to report my meter reading its 78452"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "reading this month is 33219"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "hi can you take my reading please, showing as 09031"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "meter shows 00671 at the moment, please update my account"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "giving my meter reading: 56789"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "current reading is 84321, please log this"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "hello my meter reading is 012890"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "meter is showing 007643 today, please record"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "i need to submit a reading, the number is 22456"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "my latest reading is 99541"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "please record meter reading of 34501 as requested"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "reading taken today 15th of march: 56003"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "just checked the meter: 00892"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "meter reading for account 445332 is 07812"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "the dial on my meter reads 23451, please update"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "taking my reading as requested, shows 99001"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "reading is 44567, please add to my account"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "my meter is showing 003456, submitting now"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "monthly reading submission: 62341"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "giving you this months reading: 15670"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "meter reading: 87654, please can you log this for my account"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "current meter reading is 00453, can you update please"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "i want to send my meter reading in - its 24567"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "reading today 28790 please update"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "hello, my reading this month is 19043"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "meter reads 005571 today, please log this"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "my reading for this quarter is 47832"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "i have my meter reading to give you, its 011234"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "reading is 30012, please record this on my account"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "here is my reading for this month: 84120"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "current reading at property is 000987"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "the meter reading is 76542 as of today"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "my reading is 002341 - please update my account details"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "sending monthly meter reading 55671"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "meter currently at 14500, logging this reading"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "please update account with reading of 93210"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "the display on my meter says 007854"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "my reading for this period is 41230"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "want to give my current meter reading: 29876"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "reading 00089 please update"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "hello can someone log this meter reading: 66540"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "reading this quarter: 18923, for account at 12 elm close"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "meter is at 003456 can you note that please"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "i have a reading to submit, the meter shows 54321"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "my reading is 77654, how do i record this?"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "been asked to provide a meter reading, here it is: 012543"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "just checked my meter and its reading 008765"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "this months meter reading is 44321"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "please add reading of 91023 to my account"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "Submiting a meter reading, current display reads 38712"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "how do i submit a meter reading on this chat? reading is 05432"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "please record my meter as 72310, taken this morning"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "can someone come and take a meter reading for me as i cant get to it?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter is in a pit outside and the cover is stuck, how do i open it?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "is it possible to get a smart meter fitted?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "the numbers on my meter keep spinning, i think it might be faulty"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "im not sure where my boundary is and where the meter is located"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter is inside a neighbours garden, can it be moved?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "ive never had a meter but want to get one put in, what do i do?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "how do i know if im on a meter or not?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "the meter reading in the box doesnt seem to go up even though im using water"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter was replaced recently but the new one seems to show a much lower reading"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "i cant access my meter as its under a concrete slab, can someone help?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "meter reading doesnt seem to match what ive been billed for"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "do you do smart meters? id like one to track my usage"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter is outside in the street and i dont know how to read it"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "the lid of the meter box is broken and full of water, please come fix it"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "i have a meter but would like to switch back to unmetered, is that possible?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "the meter appears to be running backwards, is that even possible?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "I have a new build property, is there definitely a meter installed?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "the meter box outside has been damaged by a vehicle, can you fix it"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "asked a plumber to locate the meter but they cant find it either"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter has a warning light on it, what does that mean?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "is it possible to have a meter check done if i think its inaccurate?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "im a landlord and want to know how many meters the property has"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "i think i may have two meters, one for the annexe, how do i tell?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "meter box is overgrown with weeds and completely inaccessible"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "I would like to apply for a meter to try and reduce my bills"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "can you tell me the meter serial number on my account?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter has been spinning constantly even when all taps are off"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "do I have a right to request a meter test if I think its wrong?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter reading goes from low numbers to suddenly very high, something is wrong"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "the dials on my old meter are really hard to read, can i get a digital one?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "plumber said meter is in an unusual place, will someone come and check"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "ive looked outside but cant find where the meter is supposed to be"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "im on the priority register and have difficulty reading my meter, can you help?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "meter was estimated for 2 years, now i have an actual read and its very different"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "can someone come out and verify my meter reading is correct?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "i want to opt out of having a meter and go back to rateable value"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter reading is very high this month, want to check the meter is ok"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "the meter is in a communal cupboard and i cant always access it"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter is in the footpath and people keep standing on the cover"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "I just want to understand how to read my water meter correctly"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "meter hasnt been read for 3 years according to bill, is that normal?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "is there a charge for having a meter installed?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "can my meter be moved indoors? its causing issues where it is"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "ive been told my meter is shared with next door but i want my own"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "i think there might be a leak as the meter is moving when nothing is running"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "the meter reading on my bill is higher than the meter currently shows"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter is very old, can it be replaced?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "is the water meter read automatically or does someone come to read it?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "not sure which meter belongs to my flat out of several in the building"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "meter box cover cracked and i can see water getting in"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter dials arent easy to read, can you send someone to read it"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "is there a way to track my water usage in real time?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "i want to set up a direct debit to pay my water bill"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "can you confirm my direct debit is still active? i havent seen it taken recently"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i want to change the day my direct debit goes out to the 5th"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my bank account is changing and i need to update the details for the DD"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i would like to stop the direct debit while i sort out my finances"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my direct debit was cancelled by my bank, how do i reinstate it?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "the wrong amount was taken last month, can you check the DD amount?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i want to increase my monthly amount to reduce the bill at the end of year"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "just switched banks, need to give you new sort code and account number"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my DD is set to quarterly, can it be changed to monthly?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "the direct debit hasnt come out for two months, is there a problem?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "would like to decrease my monthly payment, i think i was overpaying"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "how do i set up a new direct debit if i previously paid by cheque?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "can the direct debit be set up for the first of the month?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my husband handles the DD but ive changed banks, need to update it"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i want to pause the direct debit for this month"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "direct debit failed this month even though theres money in the account"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "ive been getting late payment notices but thought the DD would cover it"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "can you tell me what date and amount my direct debit is set at?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my direct debit shows as pending every month but never actually comes out"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i want to change from annual to monthly billing and set up a DD"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i cancelled the DD by mistake, can you set it up again?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i am now paying from a joint account, need to update the DD details"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my DD is set to the wrong amount and has been for months"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i got a letter saying my direct debit has been cancelled, why?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "can the DD be changed to come out the day after my salary goes in?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i would like to switch my payment method from standing order to direct debit"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my payment was rejected twice, now im getting charges added"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "please change my DD to the 20th of the month instead of the 1st"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "new bank details: sort code has changed and account number"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i want to take responsibility for the DD that was in my late husbands name"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my direct debit is coming out twice in the same month, can you check"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i want to pay the whole annual amount in one go instead of by DD"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i dont have a direct debit set up, can you tell me how to do that?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "the DD amount seems much higher than the bill I received, please check"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "can you confirm that you have my correct bank details for the direct debit?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my DD was set up at my old address, does it transfer automatically?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "want to pay half the normal amount while im on maternity leave"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "direct debit keeps bouncing even though my account has funds"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "what happens to my DD if i move house? does it carry over?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i want the DD to come out on the 25th, right after i get paid"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my account is in credit, should i reduce my monthly DD?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "please can you send me written confirmation of my DD amount and date"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i updated my bank details online but DD still took from old account"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "had a dispute with my bank and DD was cancelled, need to reinstate"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "want to check if my direct debit is set up correctly after moving bank"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my company pays the water bill and i need to change the DD account"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "DD not yet showing on my bank statement, is it definitely set up?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i want to see a history of all my direct debit payments"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my old landlord had a DD set up, i need to set up my own"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "DD amount should have increased with the price rise but it hasnt"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "just received a failed payment letter, want to sort the DD out now"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "want to set up a direct debit today to avoid any late payment fees"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my direct debit keeps getting cancelled, this is the third time"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "my direct debet keeps failing, not sure why as i have enough money in my account"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "Please change my DD date from the 15th to the 28th"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "i have changed my surname and need to update it on my water account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please update my mobile number to a new one"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i need to add someone else to my account as a joint holder"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "can i update my preferred language on my account?"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my title has changed from Miss to Mrs and i need the account updated"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please change my email address as i no longer have access to the old one"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i need to add a note to my account that i have a hearing impairment"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my address has been updated by the council and the postcode has changed"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i need to take my daughters name off the account, she has moved out"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "can i remove a joint account holder from my water account?"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "ive moved and my billing address needs to change but supply address is same"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please change the primary contact to my wife, not me"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my phone number and email are both outdated on the account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i have a disability and would like to be added to the priority services register"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "need to update the account to show my new name after divorce"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i got a new email address and want the bills sent there instead"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i want to opt out of marketing emails from your company"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please add my carer to my account as an authorised contact"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i need to add my business name to the billing details"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my partner and i split up, please remove their name from the account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i have a new phone number and want all texts sent to that number"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please update my account to say i require large print bills"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my house number has changed due to a street renaming scheme"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i want letters to be sent to my daughter who manages my affairs"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "can you add a note that the meter is difficult to access, behind a fence"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please remove the old phone number from my file, it belongs to an ex"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i want to change the account holder name to reflect my legal name change"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please update my preferred contact method to email only"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "can i nominate someone to receive my bills on my behalf?"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please stop sending me paper bills, i want to go paperless"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my company name has changed and i need it updated on the account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i moved in with a friend and want to add them as joint account holder"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please update contact preferences - no cold calls, email only"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my name was spelled wrong when the account was set up, please correct"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i need to register as a vulnerable customer due to my health condition"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i no longer want to receive printed bills, switch to email"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my daughter has power of attorney and needs to be added to account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please change the delivery address for correspondence"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i want to update my account to show we now have a medical dependency on water"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "can you add a note that the property has a dog and access needs arranging"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my old landlord still appears on the account, can you remove them?"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please change my first name, it was entered incorrectly when registered"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i want to be contacted by text not email please update this"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my wife passed away and i need to remove her name from the account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please send all future bills to my email address rather than post"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "ive legally changed my gender and need my title and name updated"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "can you update my details as ive had my name changed by deed poll"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i want to opt back in to paper statements after going paperless"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please update the occupancy details as we now have an extra person living here"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please change my billing to quarterly rather than annually"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i run a home business from this address, can this be noted on the account?"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please remove my middle name from the billing details"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "the account is in my maiden name but i now use my married name"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i want to change from SMS notifications to email notifications"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my ex partner has been contacting you on my behalf and i want this stopped"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "please update the account to my correct full legal name"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "my adress has change slightly, the house has been renumbered"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "how do i update my contact prefernces? i dont want letters anymore"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "im moving out of my rented property next Friday and need to close my account"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "we just exchanged on a new house and need to set up water in our name"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "can you help me set up a new account at my new address?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "im buying a house and need to know how to sort out the water supply"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "we moved into our new house today and want to register as new occupants"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "please cancel my account at my current address from the end of the month"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "i sold my house and completed last week, need to close the account please"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "moving from a house to a flat next week, do i need to notify you?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "i need to transfer my account from my old to my new address"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "my tenants have moved out and i need to take the account into my own name temporarily"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "we're completing on our house purchase on the 22nd, how do i set up water?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "just moved into a new build, how do i register for water?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "moving out date is the 30th, what information do i need to give you?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "im relocating for work and need to close my account before i move abroad"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "we are first time buyers completing next week, what do we need to do about water?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "need to know what happens to my water account when i move"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "i want to give a final meter reading when i leave, how do i do this?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "ive moved into student accommodation, how do i set up water?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "ive left the property but forgot to close my account, can i do it retrospectively?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "we're moving house at the weekend and want to make sure everything is sorted"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "can i set up the account at my new address before i actually move in?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "moving to a new area, do i need to use the same water company?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "i'm a landlord and my tenants have moved out, how do i manage the account?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "we're downsizing to a smaller property, how do i close current account"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "my completion date has changed, how do i update my account transfer request?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "i've moved out of a shared house and need to remove my name from the account"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "the house im moving into has existing account in previous owners name"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "im renting out my property and the tenants want to set up their own account"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "how do i close my account if i'm emigrating next month?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "we moved in two weeks ago and still havent set up the water account properly"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "need to take a final meter reading and close the account on my move out date"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "im the estate agent managing a vacant property, need to sort the water supply"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "do i need to give notice before moving or can i close the account same day?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "i moved out months ago but keep getting bills, the account should have been closed"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "please send me a final bill for my old address"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "the new tenants have moved in, can you help them set up their own account?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "were moving into a property where the previous owner died, how do we set up supply?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "i'm moving to a rented property, does the landlord deal with water or do i?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "just moved in and need to register as account holder, current account shows previous tenant"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "my son is moving into his first flat and needs to set up his water account"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "moving to a new property on 1st may, want to notify you in advance"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "how long after moving in do i have to register with the water company?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "just completed on a new house, took a meter reading when we moved in, is that right?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "ive moved into a shared house, am i responsible for the water bill?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "i need a letter confirming when my account was closed at my old address"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "my property has been empty for 3 months since i moved, still being billed"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "moving out of social housing next month, what do i need to do"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "do i need to set up a new direct debit at my new address or does it transfer?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "can you give me my account closing balance before i move?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "my landlord says i have to deal with water company directly but im not sure"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "i want to pre-register before moving in on the 10th"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "moving house next month and want everything sorted before the moving day"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "please confirm you have closed my account at 14 church lane as requested"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "just moved in and want to make sure im not paying the previous tenants debts"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "the property i'm buying has a very high water debt, am i liable for it?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "can you help me understand the process for moving my account to a new address"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "can you transfer my account to my new adress please"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "Moving out on the 15th, what do I need to do?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "just moved in to this property and need to set up water supply in my name"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "we are buying our property at auction and want to know about water setup"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "My water has a really strange taste, almost like chlorine"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water from my tap tastes really strongly of chemicals today"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my water has a horrible smell like something is rotting"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "there is a really strong taste of bleach in my water today"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "something is definitely wrong with the water, it tastes really off"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my children refused to drink the water this morning as it smells funny"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water has a strange smell i cant describe, a bit earthy maybe"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "ive been drinking the water and feeling unwell, could it be contaminated?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "something has changed with the water quality recently, tastes different"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "there is an oily film on the surface of water in my glass"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water smells like sewage or something nasty"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water has a strong plastic taste, have the pipes been replaced recently?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the taste of my tap water has changed noticeably in the past few days"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "i put the kettle on and the water had a really unpleasant smell when it boiled"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water smells musty and tastes stale even when freshly run"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "i think there might be something in the water making us ill, please investigate"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water has had a funny taste for about a week now"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "there is a slight petrol or fuel smell in the water today"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water smells like swimming pool water, very chlorinated"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "i let the tap run for a minute but the taste hasnt improved"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "even after filtering the water still tastes odd and slightly chemical"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water quality has definitely changed this week, can you check?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "very concerned about water quality as my elderly parents drink from the tap"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my fish tank water started smelling when i did a water change from the tap"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water has a slightly sweet taste to it which is unusual"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water smells like damp or wet concrete, is that normal?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "hot water smells fine but cold water has an odd taste"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water tastes really strongly of something, might be the pipes"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "can you test the water quality at my property? something seems wrong"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water has a strong smell and taste since the road works last week"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my drinking water has had a faint metallic taste for 2 weeks"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "i noticed foam forming on the water in my glass, what does that mean?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water smells like a swimming pool today, very strong chlorine"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my husband says the water is fine but i can definitely taste something odd"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water tastes like soil or mud today"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "i had guests last weekend who all commented on the taste of the water"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water feels greasy somehow, leaves a residue when it dries"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water has an unusual smell that i noticed for the first time today"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "i used the tap water to make tea and it tasted different from normal"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water from my cold tap has an unusual and unpleasant taste this week"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "concerned about water quality after seeing news about contamination in area"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water doesnt seem right, cant quite put my finger on it but something is off"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "there is a faint smell from my cold water tap that was never there before"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water in my kettle has a strange smell when heated"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "i used to always drink tap water but this past week ive been buying bottles"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water tastes different since the mains was worked on near here"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my newborn formula needs to be made with safe water, concerned about quality"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "there's a slight toilet smell to the water from one tap, very worrying"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water tastes faintly sour, a bit like vinegar"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the tap water has always been fine but recently its tasted much more treated"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "i've noticed small bits of white stuff floating in my water"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "can you tell me if the water in my area is currently safe to drink?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my morning coffee tastes terrible lately and i think its the water"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water has a horrible aftertaste even when cold"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water seems to be foaming slightly when i run the tap fast"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "my whole family noticed the water tasted really strange at dinner last night"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water smells really strongly of chlorine, almost burning my throat"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "been using a brita filter but even that doesnt seem to be fixing the taste"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water quality seems to have gotten worse since the new pipes were laid"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "water tastes diffrent lately, not sure what it is but its noticable"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "the water looks clear but has a mettalic taste, been like this a few days"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "I received a letter about planned maintenance, when exactly will the water be off?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i got a leaflet through my door about planned works, what does this mean for me?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "when exactly is the water going to be turned off for the works on monday?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "how long will i be without water during the planned maintenance?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "will the interruption tomorrow affect my whole house or just certain taps?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i work from home and need to know exactly when the supply will be off"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i have a medical condition and rely on running water, when will works happen?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "can you tell me more about the work planned for next week?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "ive seen workers outside, is this the planned work that was in the letter?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "the planned works were supposed to be yesterday, why has nothing happened?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "is there any chance the works could be delayed to avoid disruption?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i have guests arriving on the day of the works, will they have water?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "can i find out in advance when planned interruptions will happen?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "the letter says works on tuesday but doesnt say for how long"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i run a business from home and need advance warning of interruptions"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "the planned maintenance letter doesnt make it clear if i'll lose supply"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "how often do you carry out planned maintenance in this area?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "can you give me a more specific time window for when the water will be off?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "ive been told works will start at 9am but what time should supply be restored?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "the planned works are happening on a day i have dialysis at home, very concerned"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "will the pressure be affected after the planned works are done?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i saw a notice posted on the street about works, when exactly are they?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "what exactly are the works on my street next week, and will i lose supply?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "ive been told about a planned outage but not given enough notice"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "is there a way to get earlier notice of planned interruptions?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do you decide when to do planned works? my street always seems to be affected"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "will the planned works also affect the drains and toilets?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i want to make sure i stock up on water before the works start"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "the works are supposed to last 4 hours but will it definitely be back by then?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i got a letter about maintenance works last week but heard nothing since"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "will you provide alternative water supplies during the planned outage?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "the works were scheduled for this morning but we still have water, have they been postponed?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "how will i know when the water is back on after the planned works?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "the planned outage has affected my elderly neighbours badly, can the timing change?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "do planned works usually cause any discolouration when the supply returns?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i want to know if there are any planned works in my area in the next month"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "can i register for notifications about planned works in my area?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "was the water off yesterday due to planned works? no one told me"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "the letter said 6am to 6pm, is that really going to be 12 hours off?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "we are having a party on the day of the works, is there any flexibility?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "what compensation am i entitled to if planned works overrun?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i need to pre-fill baths and containers before the works, how much notice will i get?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i received a text about planned works but need more details"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "can you confirm the exact dates and times of works on my street?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "what happens if the planned works dont finish in time and supply isnt restored?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i would have appreciated more notice about these planned works"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "ive been told supply will be off between 8 and 12, will it be restored by then for sure?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "the notice says the works start tuesday but doesnt mention an end date"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "will the planned works mean dirty water comes through when its restored?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i need to know immediately when the supply is restored, is there a notification?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "any update on the planned works scheduled for tomorrow morning?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "i signed up for alerts but didnt get one for the works happening today"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "when do the planned works in our area start and how long will they last?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "how long will the mantainance work take? I need to know if I should fill some buckets"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "is there any planned work in my area that might affect my supply?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "I'm really struggling to pay my water bill at the moment, is there any help available?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "im finding it really hard to keep on top of the water bills at the moment"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "can you help me set up an affordable payment plan?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i am on universal credit, is there any reduction available for my water bill?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i cant afford my water bill this month and dont know who to turn to"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "do you have a social tariff for people on low incomes?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i have significant debt on my water account and need help managing it"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "my income has dropped dramatically and i cant keep up with bills"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "is there any charity or fund that can help with water bill debt?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i am registered disabled and on a fixed income, are there any discounts?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "ive been struggling since losing my job, can we arrange smaller payments?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i was made redundant 3 months ago and cant afford my bills"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "my water bill is increasing and my benefits havent, i need help"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "can you tell me about any schemes to help people who cant pay?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i am a carer for my disabled child and money is very tight, any help?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "ive been in arrears for a while now and need a structured payment plan"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i live alone and am on pension credit, can i get a reduction?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "im worried about being cut off, i know i owe money but im trying my best"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "will you agree to a payment plan if i cant pay the full amount?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i have mental health problems which have affected my ability to manage finances"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "can i apply for water sure to help manage my bill?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i have a large family and high water usage, are there any support schemes?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "my husband died last year and i cant afford the bills on my own income"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "im going through a really difficult time and need help with my water bills"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i dont want to get cut off but i genuinely cant afford to pay right now"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "can someone talk me through the options for help with water bills?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i owe about £600 on my water account, how do we deal with this?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i have spoken to a debt advisor who suggested i contact you about a payment plan"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "ive never been in debt before and find this really embarrassing, but i need help"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i am on income support and cannot meet my current water payments"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "are there any grants available to help with utility arrears?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i was in a bad relationship and my finances suffered, now im trying to sort things out"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i know i should have called sooner but ive been in denial about the bills"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "im trying to reduce my usage to lower the bill, is there advice available?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "my partner has a chronic illness which uses lots of water, any allowances?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i was told by a housing officer to contact you about a repayment plan"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i have four children and am on housing benefit, water bills are a real struggle"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i want to sort out this debt before it goes further, what can we do?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "is there a minimum payment threshold you accept to keep the account going?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i am due to come out of hospital and havent paid any bills while inside"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "my electricity and water bills have both increased and i just cant cope"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i need to make sure i keep my supply on, my children depend on it"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "can i get help if i have already had a county court judgment for water debt?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "im in temporary accommodation and struggling with bills, what support exists?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "my partner walked out leaving me with all the bills on one income"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i have been homeless and am now in a property but have lots of bill arrears"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i want to reduce my bill by getting metered but also need immediate help"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "ive written to you already but had no reply about my payment plan request"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i am fleeing domestic abuse and need to set up payment on a new account"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "any advice on reducing water usage so the bills are more manageable?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "im a single parent with two young children and just cannot manage these bills"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i was on a payment plan but had to stop due to financial emergency, need to restart"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "is there a number i can call to discuss my options before my account goes to debt collection?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "im in genuine hardship, ive been referred by my social worker to contact you"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "can i request a review of my metered charges if i believe they are too high?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "i need a longer payment plan over 12 months or more, is that possible?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "ive been asked by my GP to contact support services, can you help?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "im desperate for help, i cant afford food and bills at the same time right now"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "ive fallen behind on payments and dont know what to do, can you help?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "Is there a watersure scheme or similar I might qualify for?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "My drain outside is completely blocked and water is flooding into my garden"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "the drain in my back garden has completely blocked and water isnt draining"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "we have water backing up into the bath and think the main drain is blocked"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "theres a foul smell from the manhole cover in my garden"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my toilet is gurgling every time i use the sink, something must be blocked"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "sewage has come up through the floor drain in my basement, please help urgently"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "the street drain at the end of my road has been blocked for weeks now"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "there is standing water in my garden that wont drain away after rain"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my drain keeps getting partially blocked, whats causing this?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "raw sewage is backing up into my ground floor toilet"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "the shared drain for our row of houses seems to be blocked"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "can you tell me if the blocked drain on my street is your responsibility?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "something is blocking the external drain from my property to the sewer"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "the drain outside is making a horrible bubbling sound"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "sewage smell from behind my house, think the sewer is blocked or leaking"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my bath takes ages to empty, drains very slowly, maybe a blockage?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "the manhole in my back garden is overflowing after heavy rain"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "i have noticed rats near my back drain, could be a break in the sewer?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my garden is flooded after rain because all the drains are backing up"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "we share a drain with the neighbour and it keeps blocking, whos responsible?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "there is a crack in the manhole cover outside my house, needs replacing"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my external drains all flow correctly except one which seems blocked"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "i had a blocked drain cleared by a plumber but its blocked again already"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "there is a terrible sewage smell coming from my kitchen drain"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "water is coming up from under the drain inspection cover outside"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "im not sure if my drain is private or public, can you help me find out?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my new build property has had drainage problems since we moved in"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my outside drain is overflowing into the street, its a health hazard"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "ive had to put drain rods down myself but the blockage is too far down"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "water cant get away fast enough during heavy rainfall, road flooding"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "can you send someone to check if the issue is in the public sewer?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "drain inspection camera showed root ingress, is that your problem or mine?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "the downstairs toilet wont flush properly and makes gurgling noises"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "i can smell sewer gas in my house which i think is from the drains"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my waste pipes are all draining slowly, everything is backing up"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "i think a section of sewer pipe has collapsed near my property"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "heavy rainfall yesterday and sewage came through my downstairs toilet"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "this is the third time this year my drains have blocked, need a proper fix"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "can i report a blocked public sewer on my street through here?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "smells terrible outside my house from what seems to be the sewer"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "the road drains are all blocked with leaves and causing flooding"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my property is lower than the road and keeps flooding when drains block"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "ive noticed an unusual sinkhole appearing near where i think the drain runs"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "sewage smells from drains even when its dry, something must be blocked"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "water from next doors washing machine seems to be flooding my drain"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "blocked sewer outside has caused flooding to my front garden twice now"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "i need to know where the public sewer is on my property so i can build an extension"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "there is raw sewage visible in the channel at the back of my house"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my cellar keeps flooding after heavy rain, think the drains cant cope"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "the drain at the end of our close blocks every time there is heavy rain"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "i noticed a damp patch in my garden that smells like sewage"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "large drain cover in road has been making cracking noises when cars go over it"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "drain pipe from my kitchen appears to be cracked, water pooling outside"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "i think a tree root has broken into the drain under my driveway"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "can you investigate why the drains on our street cant handle normal rainfall?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "sewage is seeping out from around the manhole cover on my road"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "been reporting blocked drains for months and nothing has been done"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "drain outside smells awful and flies are coming from it, please send someone"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "the drain in my street keeps overflowing when it rains, its been going on for weeks"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "my outdoor drain is blocked with leaves and wont clear, is this your responsibilty?"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "What are your opening hours for customer service?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i make a formal complaint about my water service?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "is there an online portal where i can manage my account?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what is the hardness of the water in my area?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "does my water contain fluoride?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i find out who is responsible for pipes outside my property?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what are my legal rights regarding water supply?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "do you offer any water efficiency checks for homes?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i request a new connection to a property being built?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what is your policy on leaks within my property boundary?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i escalate a complaint that hasnt been resolved?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "are you the water company for this postcode?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what hours can i reach a real person on the phone?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how long does it take to get a new meter installed?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "do you have a live chat option on your website?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what should i do in an emergency outside of office hours?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "i want to make a subject access request for my account data"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "can i get a copy of your terms and conditions?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what is the minimum service level you are required to provide?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i find my account number if i dont have a bill?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "can i give feedback about an engineer who visited my property?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i report a water related emergency at night?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "do you accept payments at a post office or payzone outlet?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what is the difference between water and wastewater charges?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how long do i have to pay a bill before it goes to collections?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "do you provide services to businesses as well as households?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what is the process if i want to object to planned works near my property?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how long is your standard appointment window for callouts?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "is there a priority register for people with special needs?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what are the water quality standards for tap water in england?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "can i check planned roadworks or maintenance online?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "are there any subsidies for water saving devices like low flow taps?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i request a home visit if i have difficulty managing my account?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what happens to my water service if my landlord doesnt pay the bill?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "i want to know the average water usage for a household my size"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "can i request that a meter reading is taken by your staff?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i get a certificate of water mains near my property for conveyancing?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what can i do if my neighbour has a leak that is affecting my property?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how long will it take for an engineer to come if i report a leak?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "i am a solicitor acting for a buyer, how do i get water account information?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "can i get a refund if supply was interrupted for more than a day?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "do you provide water for standpipe hire for building work?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "i want to request an appointment for a smart meter installation"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i find out if there are any current issues in my area?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what is your policy if my water supply is affected by building works nearby?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "can i get a letter confirming i have no outstanding balance on my account?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i contact your customer services team by email?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "is there a minimum water pressure you are required to maintain to my property?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "i dont know my account number, how do i find it?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i report damage to a fire hydrant in my street?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "can you tell me how the water gets from a reservoir to my tap?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "do you offer free water saving devices such as shower timers?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "can you explain the wastewater element of my bill?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "where do i go to check if there are any service updates affecting my area?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what number do i call for emergencys out of hours?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "Can you tell me who my water supplier is, I've just moved to this area and not sure"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "how do i get in touch with someone about my account?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "do you have an app I can use to manage my account?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "Is the water in this area hard or soft?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "what is a drain search and do i need one for my house purchase?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "i am curious how my bill compares to the average for this area"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "my meter is very old, can it be replaced?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "reading my meter but i cant tell if its m3 or litres it shows"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my business has several outlets, how do i know which meter serves which?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "the meter reading on my bill seems lower than it should be, is my meter faulty?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "want to know how many units ive used this month but cant work out the meter"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "the meter in my property belongs to the previous owner, how do i sort this?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "my meter reading from my bill is way higher than the meter actually shows right now"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "is there any flexibility on the timing of the planned works?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "can i request that works are done out of hours to minimise disruption?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "will the planned works affect the water pressure even after supply is restored?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "the planned works arent listed on your website even though i got a letter"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "my home relies on a water powered stairlift, how will the outage affect me?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "Will the interuption yesterday affect today's supply as well?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "water supply intermittent after yesterday's works, is this related?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "been without water for about 5 hours now, no idea why"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "just got home and there is no water at all, checked with next door and theyre fine"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "i have no water at all, taps are completely dry"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "we woke up this morning with no water at all, whats going on?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "my bill says I owe £340 but that cant be right can it?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i got charged twice last month, can someone look into this please"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "Why is my bill so high? I live alone and never use much water"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "i dont understand the charges on my latest bill, can you explain them?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "the pressure seems worse in the mornings, everyone must be using water at once"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "my new property has really poor pressure compared to my old house"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "pressure seems worse in the winter, is that normal?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "please change my direct debit date to the 1st of the month"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "I need to update the sort code and account number for my payments, i moved to a new bank"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "how do i cancel my direct debit? i want to pay manually instead"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "water looks very slightly off colour today, could just be me but thought id mention it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "Taps running brown water, been like this since this moring"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "I've recently got married and need to change my name on the account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "i need to ad my wife to the account as a joint holder"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "hi there, ive got water gushing out from under my front garden, think a pipe has burst"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "hey, there's a massive leak in the road outside my house, water everywhere"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "hello, can you help? water is pouring out from where the supply pipe enters my property"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "hiya, ive noticed a constant drip from a joint under my kitchen sink, getting worse"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "hi, my meter box is full of water and i think somethings burst in there"}, {"role": "assistant", "content": "report_leak"}]}
+{"messages": [{"role": "user", "content": "hey, the water pressure in all my taps has dropped really suddenly this morning"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "hi, barely any water coming out the shower, is there a problem in the area?"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "hello, my water pressure has been terrible all week, taps are just trickling"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "hiya, pressure is really low upstairs, cant even fill a bath properly"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "hi there, my washing machine keeps stopping mid cycle, think its the water pressure"}, {"role": "assistant", "content": "report_low_pressure"}]}
+{"messages": [{"role": "user", "content": "hey, my water has come out a funny brown colour this morning, is it safe?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "hi, the water from my tap looks yellowish today, not sure if i should use it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "hello, theres a rusty orange tint to my water, been like this since last night"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "hiya, water is coming out cloudy and white, is that normal?"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "hi there, my tap is running dark murky water this morning, pretty worried about it"}, {"role": "assistant", "content": "report_discoloured_water"}]}
+{"messages": [{"role": "user", "content": "hey, ive got no water at all coming from any taps, what's going on?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "hi, woke up this morning and theres no water supply at all, is there an outage?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "hello, our water has been completely off for a few hours now, any idea when it'll be back?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "hiya, no water coming out of the taps or toilet, is there work being done nearby?"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "hi there, our supply has been cut off, we havent missed any payments so not sure why"}, {"role": "assistant", "content": "report_no_water"}]}
+{"messages": [{"role": "user", "content": "hey, my bill this month is nearly double what it normally is, can someone look into it?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "hi, i think ive been charged twice this month, can you check my account?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "hello, i dont understand some of the charges on my latest bill, can you explain them?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "hiya, got a bill saying i owe over £400 which seems way too high, can you help?"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "hi there, i live alone and my usage on the bill seems really high, think theres an error"}, {"role": "assistant", "content": "billing_query"}]}
+{"messages": [{"role": "user", "content": "hey, just want to submit my meter reading, its currently showing 08234"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "hi, can i give you my meter reading please? it shows 02917"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "hello, i'd like to submit a meter reading of 14502 for my account"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "hiya, meter reading is 006731, can you update my account with that please?"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "hi there, how do i submit a meter reading online? the reading is 09345"}, {"role": "assistant", "content": "meter_reading_submission"}]}
+{"messages": [{"role": "user", "content": "hey, i have no idea where my water meter actually is, can you help me find it?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "hi, not sure if my property is metered or on a fixed rate, can you check?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "hello, i think my meter might be faulty, the reading keeps jumping around a lot"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "hiya, never read a water meter before, can you walk me through how to do it?"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "hi there, id like to request having a meter installed at my property if thats possible"}, {"role": "assistant", "content": "meter_query"}]}
+{"messages": [{"role": "user", "content": "hey, id like to change my direct debit date to the 28th of the month please"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "hi, i need to update my bank details for my direct debit, ive switched banks"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "hello, how do i cancel my direct debit? i want to switch to manual payments"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "hiya, my direct debit keeps failing even though i have enough in my account, can you help?"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "hi there, can you update my sort code and account number for my direct debit please"}, {"role": "assistant", "content": "direct_debit_change"}]}
+{"messages": [{"role": "user", "content": "hey, just got married and need to update my name on the account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "hi, can you update my phone number on my account please, ive got a new one"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "hello, i need to change the email address associated with my account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "hiya, my address has changed slightly and i need to update it on my account"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "hi there, can i add my partner to the account as a joint holder please"}, {"role": "assistant", "content": "account_update"}]}
+{"messages": [{"role": "user", "content": "hey, im moving house next month, what do i need to do to close my current account?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "hi, just moved into a new property and need to set up water in my name"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "hello, can you transfer my account over to my new address please"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "hiya, moving out on the 20th, who do i need to contact and what do i need to do?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "hi there, we're moving into a new place next week, how do we get the water sorted?"}, {"role": "assistant", "content": "moving_home"}]}
+{"messages": [{"role": "user", "content": "hey, my water has a really strong chlorine taste today, is that normal?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "hi, the water smells like rotten eggs this morning, is something wrong?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "hello, my whole family felt sick after drinking the tap water yesterday, really concerned"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "hiya, water has had a weird metallic taste for a few days now, can you investigate?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "hi there, theres a strong chemical smell from my tap water, is it safe to use?"}, {"role": "assistant", "content": "water_quality_complaint"}]}
+{"messages": [{"role": "user", "content": "hey, i got a letter about planned works, can you tell me exactly when my water will be off?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "hi, is there any planned maintenance in my area that might affect my water supply?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "hello, saw a notice about pipe works on my street, will i have no water all day?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "hiya, how long will the planned maintenance take? need to know if i should stock up on water"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "hi there, someone mentioned there's works planned near me, is that right and will it affect my supply?"}, {"role": "assistant", "content": "planned_outage_enquiry"}]}
+{"messages": [{"role": "user", "content": "hey, im really struggling to pay my water bill at the moment, is there any help available?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "hi, ive fallen behind on my payments and dont know what to do, can you help me out?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "hello, im on universal credit and cant afford my water bills, is there a reduced tariff?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "hiya, can i set up a payment plan to clear my arrears gradually?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "hi there, i recently lost my job and am struggling with bills, is there any support from you?"}, {"role": "assistant", "content": "hardship_support"}]}
+{"messages": [{"role": "user", "content": "hey, my drain outside is completely blocked and water is flooding into my garden"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "hi, the drain on my street keeps overflowing whenever it rains, been going on for weeks"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "hello, ive got raw sewage coming up through my drain, its pretty urgent please help"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "hiya, theres a horrible smell outside my house, think the drain must be blocked"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "hi there, water is backing up in my bath and sink, think the main drain might be blocked"}, {"role": "assistant", "content": "drainage_issue"}]}
+{"messages": [{"role": "user", "content": "hey, what are your customer service opening hours?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "hi, do you have an app i can use to manage my account and submit readings?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "hello, is the water in this area hard or soft? just moved here"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "hiya, what number do i call if i have an emergency out of hours?"}, {"role": "assistant", "content": "general_enquiry"}]}
+{"messages": [{"role": "user", "content": "hi there, can you tell me who my water supplier is? just moved to this area and not sure"}, {"role": "assistant", "content": "general_enquiry"}]}

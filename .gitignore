@@ -1,0 +1,21 @@
+.env
+*.env
+
+# Training output and checkpoints
+output/
+*/output/
+checkpoint-*/
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
