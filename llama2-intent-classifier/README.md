@@ -62,7 +62,7 @@ The result is a fine-tune that costs a fraction of full training in both time an
 
 ## Training
 
-Training was run on [RunPod](https://runpod.io) using a single **NVIDIA RTX 4090** GPU.
+Training was run on [RunPod](https://runpod.io) using a single **NVIDIA A100 (80GB)** GPU.
 
 **Key hyperparameters:**
 
@@ -75,7 +75,7 @@ Training was run on [RunPod](https://runpod.io) using a single **NVIDIA RTX 4090
 - Learning rate: 2e-4
 - Optimizer: paged AdamW
 
-**Approximate training cost:** ~$1–2 on RunPod
+**Approximate training cost:** ~0.25 on RunPod
 
 Once training completes and adapters are pushed to HuggingFace, run evaluation separately:
 
@@ -178,6 +178,36 @@ print(result)
 **Improvements made for Run 3:**
 - Reduced `general_enquiry` training examples to prevent overcorrection
 - Ensured `general_enquiry` examples are clearly distinct from other intents
+
+---
+
+### Run 3 — 1,096 examples, 5 epochs
+
+**Overall accuracy: 79%**
+
+| Intent | Precision | Recall | F1 | Support |
+|--------|-----------|--------|----|---------|
+| account_update | 1.00 | 0.86 | 0.92 | 7 |
+| billing_query | 0.80 | 0.36 | 0.50 | 11 |
+| direct_debit_change | 0.88 | 0.88 | 0.88 | 8 |
+| drainage_issue | 1.00 | 1.00 | 1.00 | 11 |
+| general_enquiry | 0.20 | 1.00 | 0.33 | 5 |
+| hardship_support | 0.88 | 0.64 | 0.74 | 11 |
+| meter_query | 1.00 | 0.71 | 0.83 | 7 |
+| meter_reading_submission | 1.00 | 1.00 | 1.00 | 1 |
+| moving_home | 1.00 | 0.60 | 0.75 | 5 |
+| planned_outage_enquiry | 1.00 | 0.89 | 0.94 | 9 |
+| report_leak | 1.00 | 0.89 | 0.94 | 9 |
+| report_low_pressure | 1.00 | 0.57 | 0.73 | 7 |
+| report_no_water | 1.00 | 1.00 | 1.00 | 7 |
+| water_quality_complaint | 1.00 | 0.92 | 0.96 | 12 |
+
+**Observations:**
+- Best overall accuracy so far at 79%, up from 68% in Run 2 and 75% in Run 1
+- `water_quality_complaint` now at 0.96 F1 — a strong result following the intent merge
+- `account_update` and `report_no_water` recovered from Run 2 regressions
+- `general_enquiry` precision remains very low at 0.20 — still being predicted too broadly despite reducing examples
+- `billing_query` recall dropped to 0.36 — likely being confused with `general_enquiry`
 
 ---
 
