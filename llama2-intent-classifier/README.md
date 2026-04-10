@@ -1,5 +1,7 @@
 # Water Utility Intent Classifier
 
+https://github.com/jamesfiltness/AI-ML-Experiments/raw/main/llama2-intent-classifier/demo.mov
+
 A fine-tuned Llama 2 7B model for classifying customer service messages from water utility customers into one of 14 intent categories. Trained using QLoRA for efficient fine-tuning on a single GPU.
 
 ## What it does
@@ -100,11 +102,36 @@ The model is deployed as a serverless API on [Modal](https://modal.com).
 ```python
 import modal
 
-Predictor = modal.Cls.lookup("water-intent-classifier", "Predictor")
+Predictor = modal.Cls.from_name("water-intent-classifier", "Predictor")
 result = Predictor().predict.remote("Hey, my water has been completely off since this morning")
 print(result)
 # report_no_water
 ```
+
+### Local web app
+
+A simple Flask app is included at `deployment/app.py`. It provides a browser UI that submits messages to the Modal endpoint and polls for the result.
+
+**Setup:**
+
+(I need to learn how to properly set up Python environments on my machine).
+
+```bash
+cd llama2-intent-classifier
+python3 -m venv .venv
+source .venv/bin/activate
+.venv/bin/pip install flask modal
+```
+
+**Run:**
+
+```bash
+.venv/bin/python deployment/app.py
+```
+
+Then open [http://localhost:5001](http://localhost:5001).
+
+The app uses a polling pattern — the request returns immediately with a job ID, and the UI polls every 2 seconds until the result is ready. On a cold start (Modal scaling up from zero) the first request may take a couple of minutes due to cold start; subsequent requests within the same session will be faster.
 
 ---
 
