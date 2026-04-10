@@ -1,6 +1,6 @@
 # Water Utility Intent Classifier
 
-A fine-tuned Llama 2 7B model for classifying customer service messages from water utility customers into one of 15 intent categories. Trained using QLoRA for efficient fine-tuning on a single GPU.
+A fine-tuned Llama 2 7B model for classifying customer service messages from water utility customers into one of 14 intent categories. Trained using QLoRA for efficient fine-tuning on a single GPU.
 
 ## What it does
 
@@ -11,7 +11,7 @@ Given a customer message like:
 The model returns an intent label:
 
 ```
-report_discoloured_water
+water_quality_complaint
 ```
 
 ### Supported intents
@@ -42,8 +42,8 @@ The training data (`data/training_data.jsonl`) consists of 1,107 labelled custom
 Messages vary in style — formal and informal, with realistic typos and abbreviations — to reflect real-world customer input.
 
 The dataset was split 90/10 for training and evaluation:
-- **Training set:** ~969 examples
-- **Test set:** ~108 examples
+- **Training set:** ~996 examples
+- **Test set:** ~111 examples
 
 ---
 
@@ -61,14 +61,14 @@ The result is a fine-tune that costs a fraction of full training in both time an
 
 ## Training
 
-Training was run on [RunPod](https://runpod.io) using a single **NVIDIA A100 40GB** GPU.
+Training was run on [RunPod](https://runpod.io) using a single **NVIDIA RTX 4090** GPU.
 
 **Key hyperparameters:**
 - Base model: `meta-llama/Llama-2-7b-hf`
 - Method: QLoRA (4-bit quantisation + LoRA)
 - LoRA rank: 16
 - LoRA alpha: 32
-- Epochs: 3
+- Epochs: 5
 - Batch size: 4 (with gradient accumulation)
 - Learning rate: 2e-4
 - Optimizer: paged AdamW
@@ -79,25 +79,22 @@ Training was run on [RunPod](https://runpod.io) using a single **NVIDIA A100 40G
 
 ## Model storage
 
-The LoRA adapter weights are stored on [HuggingFace Hub](<your-hf-repo-url>) as a private repository. At inference time, the base Llama 2 7B model is loaded and the adapters are applied on top.
+The LoRA adapter weights are stored on [HuggingFace Hub](https://huggingface.co/jamesfiltness/llama2-water-intent) as a private repository. At inference time, the base Llama 2 7B model is loaded and the adapters are applied on top.
 
 ---
 
 ## Deployment
 
-The model is deployed as a serverless API on [Replicate](<your-replicate-model-url>).
+The model is deployed as a serverless API on [Modal](https://modal.com).
 
 **Example API call:**
 
 ```python
-import replicate
+import modal
 
-output = replicate.run(
-    "<your-replicate-model>",
-    input={"message": "Hey, my water has been completely off since this morning"}
-)
-
-print(output)
+Predictor = modal.Cls.lookup("water-intent-classifier", "Predictor")
+result = Predictor().predict.remote("Hey, my water has been completely off since this morning")
+print(result)
 # report_no_water
 ```
 
@@ -135,7 +132,7 @@ print(output)
 
 **Improvements made for Run 2:**
 - Added more training examples for `water_quality_complaint`, `hardship_support`, and `general_enquiry`
-- Merged `report_discoloured_water` into `water_quality_complaint` to eliminate confusion between the two similar intents, reducing the total intent count from 15 to 14
+- Merged `report_discoloured_water` into `water_quality_complaint` to eliminate confusion between the two similar intents
 - Increased training epochs from 3 to 5
 
 ---
@@ -146,7 +143,8 @@ print(output)
 ├── data/
 │   └── training_data.jsonl
 ├── training/
-│   └── finetune.py
+│   └── evaluate.py
+|   └── finetune.py
 ├── deployment/
 │   └── predict.py
 └── README.md
@@ -159,4 +157,4 @@ print(output)
 - **Fine-tuning:** [HuggingFace Transformers](https://huggingface.co/docs/transformers), [PEFT](https://huggingface.co/docs/peft), [bitsandbytes](https://github.com/TimDettmers/bitsandbytes)
 - **Training infrastructure:** [RunPod](https://runpod.io)
 - **Model registry:** [HuggingFace Hub](https://huggingface.co)
-- **Serving:** [Replicate](https://replicate.com)
+- **Serving:** [Modal](https://modal.com)
