@@ -1,6 +1,6 @@
 # AI/ML Experiments
 
-A collection of personal AI and machine learning projects covering fine-tuning, deployment, and experimentation with modern models.
+A collection of personal AI and machine learning projects.
 
 ---
 
