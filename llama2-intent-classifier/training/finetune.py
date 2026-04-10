@@ -139,11 +139,14 @@ for example in test_dataset:
             **inputs,
             max_new_tokens=20,
             do_sample=False,
+            temperature=None,
+            top_p=None,
             pad_token_id=tokenizer.eos_token_id,
         )
 
     decoded = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    predicted = decoded.split("### Intent:")[-1].strip().split()[0]
+    parts = decoded.split("### Intent:")[-1].strip().split()
+    predicted = parts[0] if parts else "general_enquiry"
 
     true_labels.append(true_intent)
     predicted_labels.append(predicted)
