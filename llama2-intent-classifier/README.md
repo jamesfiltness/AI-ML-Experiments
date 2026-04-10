@@ -75,6 +75,12 @@ Training was run on [RunPod](https://runpod.io) using a single **NVIDIA RTX 4090
 
 **Approximate training cost:** ~$1–2 on RunPod
 
+Once training completes and adapters are pushed to HuggingFace, run evaluation separately:
+
+```bash
+python evaluate.py
+```
+
 ---
 
 ## Model storage

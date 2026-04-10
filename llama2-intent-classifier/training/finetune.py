@@ -5,7 +5,6 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from trl import SFTTrainer
 from huggingface_hub import login
-from sklearn.metrics import classification_report
 import torch
 
 # -------------------------------------------------------------------
@@ -117,38 +116,4 @@ model.push_to_hub(HF_REPO, token=HF_TOKEN)
 tokenizer.push_to_hub(HF_REPO, token=HF_TOKEN)
 
 print(f"Adapters pushed to: https://huggingface.co/{HF_REPO}")
-
-# -------------------------------------------------------------------
-# Evaluation — accuracy and F1 per intent
-# -------------------------------------------------------------------
-print("\nRunning evaluation on test set...")
-
-model.eval()
-true_labels = []
-predicted_labels = []
-
-for example in test_dataset:
-    message = example["text"].split("### Intent:")[0].replace("### Message:", "").strip()
-    true_intent = example["text"].split("### Intent:")[-1].strip()
-
-    prompt = f"### Message:\n{message}\n\n### Intent:\n"
-    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
-
-    with torch.no_grad():
-        outputs = model.generate(
-            **inputs,
-            max_new_tokens=20,
-            do_sample=False,
-            temperature=None,
-            top_p=None,
-            pad_token_id=tokenizer.eos_token_id,
-        )
-
-    decoded = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    parts = decoded.split("### Intent:")[-1].strip().split()
-    predicted = parts[0] if parts else "general_enquiry"
-
-    true_labels.append(true_intent)
-    predicted_labels.append(predicted)
-
-print(classification_report(true_labels, predicted_labels))
+print("\nTraining complete. Run evaluate.py to get accuracy and F1 scores.")
